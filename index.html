@@ -12,9 +12,27 @@
 
 <header class="hero">
   <h1>Rice Purity Test – 100 Question Quiz</h1>
-  <p>Take the complete rice purity test and get your score instantly. Understand your purity score, compare with others, and explore meaningful insights.</p>
-  <button onclick="startQuiz()">Start the Test</button>
+  <p>Check your purity score instantly by answering all 100 questions below.</p>
 </header>
+
+<!-- Sticky Progress Bar -->
+<div id="stickyProgress" class="sticky hidden">
+  <div class="progress">
+    <div id="progressBar"></div>
+  </div>
+  <p id="progressText">0% completed</p>
+</div>
+
+<section class="quiz">
+  <h2>Answer All Questions</h2>
+  <form id="quizForm"></form>
+</section>
+
+<section id="result" class="result hidden">
+  <h2>Your Rice Purity Score</h2>
+  <p id="scoreText"></p>
+  <p id="meaningText"></p>
+</section>
 
 <section class="container">
 
