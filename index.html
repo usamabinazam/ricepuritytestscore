@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rice Purity Test (100 Questions) – Score & Meaning</title>
+  <meta name="description" content="Take the Rice Purity Test with 100 questions. Get your score instantly, understand what it means, and compare with others.">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Rice Purity Test – 100 Question Quiz</h1>
+  <p>Take the complete rice purity test and get your score instantly. Understand your purity score, compare with others, and explore meaningful insights.</p>
+  <button onclick="startQuiz()">Start the Test</button>
+</header>
+
+<section class="container">
+
+<h2>What is the Rice Purity Test?</h2>
+<p>The rice purity test is a 100-question self-assessment quiz that measures life experiences using simple yes or no answers. Originally introduced as a social tool, it is now widely used online for entertainment and self-reflection. The test helps users understand their level of experience through a structured scoring system.</p>
+
+<h2>How the Rice Purity Score Works</h2>
+<p>Your score begins at 100. Each “yes” answer reduces your score by one point. A higher score indicates fewer experiences, while a lower score reflects more exposure. The rice purity score is easy to understand and instantly calculated after completing the quiz.</p>
+
+<h2>What is a Good Purity Score?</h2>
+<p>There is no fixed definition of a good score. Most users fall between 60 and 85. Scores above 90 are considered high, while scores below 50 indicate more life experience. The interpretation depends on your personal journey.</p>
+
+<h2>Average Rice Purity Score by Age</h2>
+<p>Younger individuals often score higher, typically between 85 and 100. College-aged users usually range between 60 and 85, while adults may fall between 40 and 70. These ranges reflect natural life progression.</p>
+
+<h2>Why People Take the Test</h2>
+<p>The rice purity test is popular because it is simple, engaging, and shareable. People take it for curiosity, comparison, and entertainment. It is often used as a conversation starter among friends.</p>
+
+<h2>Is the Rice Purity Test Accurate?</h2>
+<p>This test is not scientific. It is designed for fun and reflection. While it provides insights into personal experiences, it should not be treated as a strict evaluation.</p>
+
+</section>
+
+<section id="quiz" class="quiz hidden">
+  <h2>Answer All 100 Questions</h2>
+
+  <div class="progress">
+    <div id="progressBar"></div>
+  </div>
+
+  <form id="quizForm"></form>
+  <button onclick="calculateScore()">Submit Test</button>
+</section>
+
+<section id="result" class="result hidden">
+  <h2>Your Rice Purity Score</h2>
+  <p id="scoreText"></p>
+  <p id="meaningText"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
